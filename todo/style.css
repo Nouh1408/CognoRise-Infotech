@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+
+}
+/* Body Styling */
+body {
+  background-color: #474242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.header {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+/* Input Styling */
+#input {
+  width: calc(100% - 50px);
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+#input::placeholder {
+  color: #aaaaaa;
+}
+
+/* Add Button Styling */
+.addBtn {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 10px; /* Adjust this value to control the distance from the input */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensures the button is centered */
+    transition: background-color 0.3s;
+
+}
+
+.addBtn:hover {
+  background-color: black;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#myUL li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eeeeee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#myUL li:hover {
+  background: #dddddd;
+}
+
+/* Checked Item Styling */
+#myUL li.checked {
+  text-decoration: line-through;
+  color: #aaaaaa;
+}
+
+/* Close Button Styling */
+.close {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: black;
+}
