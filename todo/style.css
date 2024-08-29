@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: cursive;
 
 }
-/* Body Styling */
+
 body {
   background-color: #474242;
   display: flex;
@@ -15,7 +15,7 @@ body {
   height: 100vh;
 }
 
-/* Container Styling */
+
 .container {
   background: #ffffff;
   width: 100%;
@@ -25,7 +25,7 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Styling */
+
 .header {
   padding: 10px 0;
   text-align: center;
@@ -36,7 +36,7 @@ body {
   color: #333333;
 }
 
-/* Input Styling */
+
 #input {
   width: calc(100% - 50px);
   padding: 10px;
@@ -50,17 +50,17 @@ body {
   color: #aaaaaa;
 }
 
-/* Add Button Styling */
+
 .addBtn {
     background-color: gray;
     color: white;
     padding: 10px 20px;
     margin: auto;
-    margin-top: 10px; /* Adjust this value to control the distance from the input */
+    margin-top: 10px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: block; /* Ensures the button is centered */
+    display: block; 
     transition: background-color 0.3s;
 
 }
@@ -89,13 +89,13 @@ body {
   background: #dddddd;
 }
 
-/* Checked Item Styling */
+
 #myUL li.checked {
   text-decoration: line-through;
   color: #aaaaaa;
 }
 
-/* Close Button Styling */
+
 .close {
   background-color: gray;
   color: white;

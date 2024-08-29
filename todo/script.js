@@ -3,10 +3,7 @@ var i;
 for (i = 0; i < my_list.length; i++) {
   var span = document.createElement("SPAN");
   span.className = "close";
-  
-  
   var txt = document.createTextNode("\u00D7");
-
   span.appendChild(txt);
   my_list[i].appendChild(span);
 }
@@ -52,3 +49,10 @@ function newElement() {
 
   li.appendChild(span);
 }
+
+document.getElementById("input").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    newElement();
+  }
+});
